@@ -1,0 +1,104 @@
+:root {
+  --orange: #fa8942;
+  --blue: #3433e7;
+  --light-orange: #fa8766;
+  --smoke: #f2f3f4;
+  --dark-smoke: #1e2428;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--smoke);
+  color: var(--dark-smoke);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.text-orange {
+  color: var(--orange);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-light-orange {
+  color: var(--light-orange);
+}
+
+.text-smoke {
+  color: var(--smoke);
+}
+
+.text-dark-smoke {
+  color: var(--dark-smoke);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-light-orange {
+  background-color: var(--light-orange);
+}
+
+.bg-smoke {
+  background-color: var(--smoke);
+}
+
+.bg-dark-smoke {
+  background-color: var(--dark-smoke);
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.upload-image-button,
+.submit-form-button {
+  width: 100%;
+  border: 1px solid var(--dark-smoke);
+  border-radius: 0.5rem;
+  margin: 8px 0;
+  transition: 0.5s ease 0s;
+}
+.submit-form-button:hover,
+.upload-image-button:hover {
+  color: var(--orange) !important;
+}
+
+.submit-form-button {
+  background-color: var(--dark-smoke);
+  color: var(--smoke);
+}
+
+.side-bar-button {
+  color: var(--dark-smoke);
+  border: 4px solid var(--orange);
+  border-radius: 1rem;
+  margin: 16px;
+  background-color: var(--smoke);
+  transition: 0.5s ease 0s;
+  padding: 8px 32px 8px 32px;
+}
+.side-bar-button:hover {
+  color: var(--blue);
+}
